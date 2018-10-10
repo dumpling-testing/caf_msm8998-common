@@ -72,6 +72,9 @@
 # Wifi
 /(vendor|system/vendor)/bin/wifi-mac-generator                  u:object_r:wifi_mac_generator_exec:s0
 
+# Camera package
+/data/vendor/omni/client_package_name                u:object_r:vendor_data_file:s0
+
 # Display Mode
 /sys/devices/virtual/graphics/fb0/oneplus_mode      u:object_r:sysfs_dm:s0
 /sys/devices/virtual/graphics/fb0/srgb              u:object_r:sysfs_dm:s0
@@ -80,4 +83,3 @@
 /sys/devices/virtual/graphics/fb0/night_mode        u:object_r:sysfs_dm:s0
 /sys/devices/virtual/graphics/fb0/panel_serial_number   u:object_r:sysfs_dm:s0
 /sys/devices/virtual/graphics/fb0/adaption_mode     u:object_r:sysfs_dm:s0
-
