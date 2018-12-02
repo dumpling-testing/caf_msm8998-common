@@ -1,0 +1,34 @@
+
+[
+  {
+    "repository"  : "DerpFest-OP5T/kernel_oneplus_msm8998",
+    "target_path" : "kernel/oneplus/msm8998"
+  },
+  {
+    "repository"  : "DerpFest-OP5T/vendor_oneplus",
+    "target_path" : "vendor/oneplus"
+  },
+  {
+    "repository"  : "mTresk/packages_apps_GoogleCameraModOP5",
+    "target_path" : "packages/apps/GoogleCameraModOP5",
+    "branch"      : "android-9.0",
+    "remote"      : "gitlab"
+  },
+  {
+    "repository"  : "PixelExperience/packages_apps_Playground",
+    "target_path" : "packages/apps/Playground",
+    "branch"      : "pie",
+    "remote"      : "gitlab"
+  },
+  {
+    "repository"  : "PixelExperience/packages_apps_ARStickersMod",
+    "target_path" : "packages/apps/ARStickersMod",
+    "branch"      : "pie",
+    "remote"      : "gitlab"
+  },
+  {
+    "repository"  : "LineageOS/android_packages_resources_devicesettings",
+    "target_path" : "packages/resources/devicesettings",
+    "branch"      : "lineage-16.0"
+  }
+]
