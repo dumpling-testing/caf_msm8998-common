@@ -276,6 +276,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
+# Illusion Kernel
+PRODUCT_PACKAGES += \
+    init.kronic.rc
+
 # KeyHandler
 PRODUCT_PACKAGES += \
     KeyHandler
