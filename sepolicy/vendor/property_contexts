@@ -10,3 +10,6 @@ vendor.oem.device.imeicache1           u:object_r:radio_prop:s0
 
 camera.on                              u:object_r:camera_prop:s0
 persist.vendor.camera.debug.logfile    u:object_r:camera_prop:s0
+
+# Dirac
+persist.audio.dirac.       u:object_r:dirac_prop:s0
