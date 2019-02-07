@@ -621,4 +621,7 @@
 
     <!-- Enable video pause workaround when enabling/disabling the camera. -->
     <bool name="config_useVideoPauseWorkaround">true</bool>
+
+    <!-- Enable all rotations -->
+    <bool name="config_allowAllRotations">true</bool>
 </resources>
