@@ -371,6 +371,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Performance
+include vendor/qcom/common/qti-vendor.mk
+
 # Prebuilts
 PRODUCT_PACKAGES += \
     OnePlusCamera \
