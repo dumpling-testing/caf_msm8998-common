@@ -14,10 +14,10 @@
     <PreferenceCategory
         android:key="graphics"
         android:title="@string/display_title">
-        <SwitchPreference
+<!--        <SwitchPreference
             android:key="hbm"
             android:summary="@string/hbm_mode_summary"
-            android:title="@string/hbm_mode_title" />
+            android:title="@string/hbm_mode_title" /> -->
         <Preference
             android:key="panel_category"
             android:title="@string/panel_category_title"

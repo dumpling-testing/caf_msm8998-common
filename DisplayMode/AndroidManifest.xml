@@ -75,7 +75,7 @@
                     android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
-        <service
+<!--        <service
             android:name="org.lineageos.settings.DisplayMode.HBMModeTileService"
             android:icon="@drawable/ic_hbm_tile"
             android:label="@string/tile_hbm_mode"
@@ -84,6 +84,6 @@
                 <action
                     android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
-        </service>
+        </service>-->
     </application>
 </manifest>
